@@ -22,7 +22,7 @@ describe('My First Test', function()
     it('Does not do much!', function(){
        
 	   const fillOutFormsPage = new FillOutFormPage()
-       cy.visit("https://ultimateqa.com/automation")
+       cy.visit(Cypress.env('url')+"/automation")
 
 
         fillOutFormsPage.getTitle()
