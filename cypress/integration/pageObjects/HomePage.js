@@ -1,24 +1,34 @@
 class HomePage
 {
-    getEditBox()
+    getTitle()
     {
-      return cy.get(':nth-child(1) > .form-control')
+      return cy.title().should('eq','Automation Practice - Ultimate QA')
     }
-    getTwoWayDataBinding()
+    clickOnLoginViaAutomationLink()
     {
-       return cy.get(':nth-child(4) > .ng-untouched')
+      return  cy.get('.et_pb_text_inner > ul > :nth-child(6) > a')
     }
-    getGender()
+    enterEmail()
     {
-        return  cy.get('select')
+        return cy.get('input[type=email')
+        
     }
-    getEntrepreneurRadio3()
+    enterPassword()
     {
-        return cy.get('#inlineRadio3')
+        return cy.get('input[type=password')
+        
     }
-    getShopTab()
+    clickOnSubmitBtn()
     {
-        return cy.get(':nth-child(2) > .nav-link')
+        return cy.get('.form__button-group > .button') 
+    }
+    clickOnTheDropDownLogout()
+    {
+        return  cy.get('.dropdown__toggle-button')
+    }
+    clickSignOut()
+    {
+        return  cy.get(':nth-child(4) > a')
     }
 }
 
