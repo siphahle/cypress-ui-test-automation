@@ -2,6 +2,7 @@
 ///<reference types ="Cypress" />
 
 import HomePage from "../pageObjects/HomePage"
+//import ProductPage from "../pageObjects/ProductPage"
 
 describe('My First Test', function()
 
@@ -18,28 +19,17 @@ describe('My First Test', function()
         })
 
     })
-
-
     it('Does not do much!', function(){
        
        const homePage = new HomePage()
-        cy.visit("https://ultimateqa.com/automation/")
+       cy.visit("https://ultimateqa.com/automation")
 
-        homePage.getEditBox().type(this.data.name)
-        homePage.getGender().select(this.data.gender)
-        homePage.getTwoWayDataBinding().should('have.value',this.data.name)
-        homePage.getEditBox().should('have.attr','minlength','2')
-        homePage.getEntrepreneurRadio3().should('be.disabled')
-        homePage.getShopTab().click()
-
-
-        this.data.productName
-
-        this.data.productName.forEach(element => {
-
-            cy.selectProduct(element)
-
-        });
-      
+       homePage.getTitle();
+       homePage.clickOnLoginViaAutomationLink().click()
+       homePage.enterEmail().type(this.data.email)
+       homePage.enterPassword().type(this.data.password)
+       homePage.clickOnSubmitBtn().click()
+       homePage.clickOnTheDropDownLogout().click()
+       homePage.clickSignOut().click()
     })
 })
