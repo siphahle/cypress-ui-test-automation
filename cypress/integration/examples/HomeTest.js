@@ -21,8 +21,8 @@ describe('My First Test', function()
     it('Does not do much!', function(){
        
        const homePage = new HomePage()
-       cy.visit("https://ultimateqa.com/automation")
-
+       cy.visit(Cypress.env('url')+"/automation")
+       
        homePage.getTitle();
        homePage.clickOnLoginViaAutomationLink().click()
        homePage.enterEmail().type(this.data.email)
