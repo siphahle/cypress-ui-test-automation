@@ -2,7 +2,6 @@
 ///<reference types ="Cypress" />
 
 import HomePage from "../pageObjects/HomePage"
-//import ProductPage from "../pageObjects/ProductPage"
 
 describe('My First Test', function()
 
