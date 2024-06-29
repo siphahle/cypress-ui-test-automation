@@ -10,7 +10,6 @@ describe('My First Test', function()
     before(function(){
 
         //Runs once before all tests in the block
-
         cy.fixture('example').then(function(data)
         {
             
@@ -19,6 +18,7 @@ describe('My First Test', function()
 
     })
     it('Does not do much!', function(){
+        
        
        const homePage = new HomePage()
        cy.visit(Cypress.env('url')+"/automation")
