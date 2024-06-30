@@ -8,7 +8,7 @@
 - Fill out forms and 
 - Fake Pricing Page
 
-### Intructions on How to Execute the Test suite on different Operating Systems (OS)
+### Intructions on How to Execute the Test suite on different Operating Systems(OS)
 
 #### Windows:
 - Download and Install Node JS
