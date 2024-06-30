@@ -4,7 +4,7 @@
 
 import FillOutFormPage from "../pageObjects/FillOutFormPage"
 
-describe('My First Test', function()
+describe('Voss QA Engineer Assessment', function()
 
 {
 
@@ -19,7 +19,7 @@ describe('My First Test', function()
         })
 
     })
-    it('Does not do much!', function(){
+    it('Complete the Contact Forms', function(){
        
 	   const fillOutFormsPage = new FillOutFormPage()
        cy.visit(Cypress.env('url')+"/automation")

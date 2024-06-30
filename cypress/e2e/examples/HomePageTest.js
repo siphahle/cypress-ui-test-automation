@@ -3,7 +3,7 @@
 
 import HomePage from "../pageObjects/HomePage"
 
-describe('My First Test', function()
+describe('Voss QA Engineer Assessment', function()
 
 {
 
@@ -17,9 +17,8 @@ describe('My First Test', function()
         })
 
     })
-    it('Does not do much!', function(){
+    it('Login Functionality', function(){
         
-       
        const homePage = new HomePage()
        cy.visit(Cypress.env('url')+"/automation")
        

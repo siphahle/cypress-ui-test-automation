@@ -3,7 +3,7 @@
 
 import FakePricingPage from "../pageObjects/FakePricingPage"
 
-describe('My First Test', function()
+describe('Voss QA Engineer Assessment', function()
 
 {
 
@@ -17,7 +17,7 @@ describe('My First Test', function()
         })
 
     })
-    it('Does not do much!', function(){
+    it('Fake Pricing Assessment', function(){
         
        
        const fakePricingPage = new FakePricingPage()
