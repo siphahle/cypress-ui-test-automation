@@ -17,6 +17,11 @@
 - Open it in your visual Studio
 - Open Visual Studio Terminal
 - Execute this command (npm install cypress --save-dev)
-- Then npx cypress open
+- Execute npx cypress open
+- On the Cypress Window select E2E Testing
+- Select a browser of your choice eg Chrome
+- Click on Specs
+- Select a Spec to run.
+- Tests will start running.
 #### Linux
 #### IOS
