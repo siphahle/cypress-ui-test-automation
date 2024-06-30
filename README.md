@@ -60,3 +60,19 @@
 - Click on Specs
 - Select a Spec to run.
 - Tests will start running.
+
+#### Videos
+- HomePageTest
+
+https://github.com/siphahle/voss-ui-test-automation-assessment/assets/12251485/c9d2a368-160d-4c89-a5e1-aa99d8e90480
+
+
+- FillOutFormPageTest
+
+https://github.com/siphahle/voss-ui-test-automation-assessment/assets/12251485/4d0c459d-fa91-416a-9236-ae2c0319e62c
+
+
+- FakePricingPageTest
+
+https://github.com/siphahle/voss-ui-test-automation-assessment/assets/12251485/5d2da78f-79e0-41d5-9845-deba314495a7
+
