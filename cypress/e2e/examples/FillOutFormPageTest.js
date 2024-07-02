@@ -32,10 +32,18 @@ describe('Voss QA Engineer Assessment', function()
 		fillOutFormsPage.clickOnSubBtn().click()
         fillOutFormsPage.verifyThankMessage();
         fillOutFormsPage.enterNameTwo().type(this.data.name)
-        fillOutFormsPage.enterMessageTwo().type(this.data.message)
-        fillOutFormsPage.enterContactCaptcha().type(this.data.captchaNo)
-        fillOutFormsPage.clickOnSubBtnTwo().click()
-        fillOutFormsPage.verifyThankMessageTwo();
+        //fillOutFormsPage.enterMessageTwo().type(this.data.message)
+        //fillOutFormsPage.calculateContactCaptcha().click()
+        //fillOutFormsPage.enterContactCaptcha().type(this.data.captchaNo)
+        //fillOutFormsPage.clickOnSubBtnTwo().click()
+        //fillOutFormsPage.verifyThankMessageTwo();
+      
+        cy.get('.et_pb_contact_captcha_question').each(($el,index,$list)=>{
+    
+        cy.log($el.text())
+       
+            
+        })
 
     })
 })

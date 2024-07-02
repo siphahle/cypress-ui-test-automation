@@ -34,6 +34,13 @@ class FillOutFormPage
     {
         return  cy.get('#et_pb_contact_name_1')
     }
+    calculateContactCaptcha()
+    {
+        return cy.get('.clearfix > .input').each(($el,index,$list)=>{
+            console.log(Text)
+
+        })
+    }
 
     enterMessageTwo()
     {   
