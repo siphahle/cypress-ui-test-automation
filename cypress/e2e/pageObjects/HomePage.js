@@ -24,7 +24,7 @@ class HomePage
     }
     clickOnTheDropDownLogout()
     {
-        return  cy.get('.dropdown__toggle-button')
+        return  cy.get('.header__user-avatar')
     }
     clickSignOut()
     {
