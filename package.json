@@ -4,7 +4,8 @@
   "description": "Cypress UI Automation Assessment",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "recordDashboardTest": "npx cypress run --record --key 534aedb7-af3b-469a-bb69-b13364902888"
   },
   "author": "",
   "license": "ISC",
