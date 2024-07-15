@@ -1,4 +1,4 @@
-const { defineConfig } = require("cypress");
+const { defineConfig } = require("Cypress");
 
 module.exports = defineConfig({
   projectId: 'k6238d',
@@ -7,6 +7,10 @@ module.exports = defineConfig({
   env: {
     url: "https://ultimateqa.com"
   },
+  retries:{
+    runMode:1,
+  },
+  projectId: "q47fpu",
   viewportWidth: 1280,
   viewportHeight: 720,
   e2e: {
