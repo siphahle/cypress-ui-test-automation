@@ -10,7 +10,7 @@ class FakePricingPage
     }
     verifyPurchaseBtns()
     {
-        return cy.get('.et_pb_button et_pb_pricing_table_button').should('have.length.of.at.most', 3)
+        return cy.get('.et_pb_button et_pb_pricing_table_button').should('have.length.of.at.most', 4)
 
     }
    

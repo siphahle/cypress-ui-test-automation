@@ -7,16 +7,6 @@ describe('Voss QA Engineer Assessment', function()
 
 {
 
-    before(function(){
-
-        //Runs once before all tests in the block
-        cy.fixture('example').then(function(data)
-        {
-            
-            this.data = data
-        })
-
-    })
     it('Fake Pricing Assessment', function(){
         
        
